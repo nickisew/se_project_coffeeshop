@@ -150,8 +150,8 @@ nav {
   list-style-type: none;
 }
 
-recipes__iframe {
-  border: #838383;
+.recipes__iframe {
+  border: 0px;
 }
 
 .recipes__video-caption {
