@@ -95,12 +95,8 @@ nav {
   color: #6f6f6f;
 }
 
-.header__footer_hours {
-  margin-top: auto;
+.header__paragraph {
   line-height: 0px;
-}
-
-.header__footer_address {
   margin-top: auto;
 }
 
