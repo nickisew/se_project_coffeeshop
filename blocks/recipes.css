@@ -1,0 +1,60 @@
+.recipes {
+  color: #fff;
+  background-color: #0a2750;
+  height: 800px;
+  padding: 100px 80px 215px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(../images/background_recipes.svg);
+  box-sizing: border-box; /*Ensures padding is included
+    in the height of block*/
+  background-size: cover; /*makes background image stick with
+    changes in viewport size*/
+  position: relative; /*Ensures image with absolute
+    positioning remains anchored in the header, which is it's
+    parent element*/
+}
+
+.recipes__title {
+  margin: 0 0 24px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipes__subtitle {
+  margin: 0 0 80px;
+  max-width: 438px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__videos {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  list-style-type: none;
+}
+
+recipes__iframe {
+  border: 0px;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 24px 0 0;
+}
