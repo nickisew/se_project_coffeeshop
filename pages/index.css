@@ -190,13 +190,13 @@ recipes__iframe {
 }
 
 .reservation__form {
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   margin: 0 auto;
 }
 
 .form {
   max-width: 385px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
 }
 
 .form__input {
@@ -206,6 +206,7 @@ recipes__iframe {
   padding: 15px 20px;
   margin: 8px 0 32px;
   border: 1px solid #838383;
+  border-radius: 4px;
 }
 
 .form__fieldset {
@@ -243,6 +244,11 @@ recipes__iframe {
   margin-bottom: 32px;
   background-color: #1878dc;
   color: #fff;
+  transition: background-color 1s;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
 }
 
 .form__checkbox {
@@ -254,5 +260,5 @@ recipes__iframe {
 .form__label_type_checkbox {
   display: flex;
   gap: 12px;
-  justify-content: center;
+  justify-content: baseline;
 }
