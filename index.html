@@ -38,7 +38,7 @@
               <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#book">Book a table</a>
+              <a class="nav__link" href="#reserve">Book a table</a>
             </li>
             <li>
               <a class="nav__link" href="#menu">Menu</a>
@@ -72,9 +72,9 @@
             </p>
           </div>
           <p class="header__paragraph">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
-          </div>
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
       </header>
       <main class="content">
         <section id="recipes" class="recipes">
@@ -116,7 +116,68 @@
             </li>
           </ul>
         </section>
-        <section id="book" class="reservation"></section>
+        <section id="reserve" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <div class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label"
+                >Name &#42;
+                <input
+                  id="name-input"
+                  class="form__input"
+                  name="first and last name"
+                  type="text"
+                  placeholder="Name Surname"
+                  required
+                />
+              </label>
+              <label for="number-of-guests" class="form__label">
+                Number of guests &#42;
+                <input
+                  id="number-of-guests"
+                  class="form__input"
+                  name="number-of-guests"
+                  type="number"
+                  min="1"
+                  max="8"
+                  placeholder="1&ndash;8"
+                  required
+                />
+              </label>
+              <label for="date-and-time" class="form__label">
+                Date & time &#42;
+                <input
+                  id="date-and-time"
+                  class="form__input"
+                  name="date-and-time"
+                  type="datetime-local"
+                  required
+                />
+              </label>
+              <label for="email" class="form__label">
+                Your email &#42;
+                <input
+                  id="email"
+                  class="form__input"
+                  name="email"
+                  type="email"
+                  placeholder="email@email.com"
+                />
+              </label>
+            </fieldset>
+            <button type="submit" class="form__button">Book a table</button>
+            <label
+              for="terms-of-use"
+              class="form__label form__label_type_checkbox"
+              ><input
+                id="terms-of-use"
+                class="form__checkbox"
+                name="terms-of-use"
+                type="checkbox"
+              />I agree with the terms of use</label
+            >
+          </div>
+        </section>
         <section id="menu" class="menu"></section>
         <section id="contacts" class="about"></section>
       </main>
