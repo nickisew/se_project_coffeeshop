@@ -37,6 +37,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: opacity 2s;
 }
 
 .footer__social-link:hover {
